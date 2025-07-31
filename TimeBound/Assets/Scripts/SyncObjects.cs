@@ -11,12 +11,12 @@ public class SyncObjects : MonoBehaviour
 
     void Update()
     {
-        int currentMinutes = Mathf.FloorToInt(timerScript.currTime);
+        float currentMinutes = timerScript.currTime;
 
         for (int i = 0; i < enterAndExitTimes.Length; i++)
         {
-            int startMinutes = (int)enterAndExitTimes[i].x;
-            int endMinutes = (int)enterAndExitTimes[i].y;
+            float startMinutes = enterAndExitTimes[i].x;
+            float endMinutes = enterAndExitTimes[i].y;
 
             if (currentMinutes >= startMinutes && currentMinutes <= endMinutes)
             {
@@ -26,7 +26,7 @@ public class SyncObjects : MonoBehaviour
         }
     }
 
-    void PlayClipSynced(AnimationClip clip, int startMinutes, int endMinutes, int currentMinutes)
+    void PlayClipSynced(AnimationClip clip, float startMinutes, float endMinutes, float currentMinutes)
     {
         if (clip == null) return;
 

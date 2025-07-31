@@ -10,7 +10,7 @@ public class TimerMain : MonoBehaviour
     public bool isManipulatingTime = false;
 
     [Header("Adjustments")]
-    [SerializeField] int updateQuantum = 1; // After how much time do we update the time
+    [SerializeField] float updateQuantum = 0.1f; // After how much time do we update the time
     [SerializeField] float timeManipulateSenstivity = 10;
 
     [Header("References")]
@@ -33,9 +33,9 @@ public class TimerMain : MonoBehaviour
 
         if (input != 0)
         {
-            timeSinceLastManipulate += Time.deltaTime * timeManipulateSenstivity;
+            timeSinceLastManipulate += Time.deltaTime * timeManipulateSenstivity/updateQuantum;
 
-            if (timeSinceLastManipulate >= updateQuantum) 
+            if (timeSinceLastManipulate >= 1f)
             {
                 int steps = Mathf.FloorToInt(timeSinceLastManipulate);
                 timeSinceLastManipulate -= steps;
@@ -45,9 +45,10 @@ public class TimerMain : MonoBehaviour
         }
         else
         {
-            timeSinceLastManipulate = 0; 
+            timeSinceLastManipulate = 0;
         }
     }
+
 
     private void Update()
     {
