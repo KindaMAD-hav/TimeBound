@@ -152,7 +152,7 @@ MonoBehaviour:
   hoursElapsed: 0
   minutesElapsed: 0
   isManipulatingTime: 0
-  updateQuantum: 0.1
+  updateQuantum: 0.04166667
   timeManipulateSenstivity: 10
   timeManipulateKey: 71000000
 --- !u!4 &248825992
@@ -203,10 +203,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timerScript: {fileID: 248825991}
+  timeQuantam: 0.04166667
   enterAndExitTimes:
-  - {x: 3, y: 10}
+  - {x: 3, y: 5}
+  - {x: 7, y: 10}
   clips:
   - {fileID: 7400000, guid: 5c4043e121edc924a8523304020b2826, type: 2}
+  - {fileID: 7400000, guid: 5c4043e121edc924a8523304020b2826, type: 2}
+  enabledAtStart: 0
+  isEnabled:
+  - x: 1
+    y: 0
+  - x: 1
+    y: 0
 --- !u!65 &391979939
 BoxCollider:
   m_ObjectHideFlags: 0
