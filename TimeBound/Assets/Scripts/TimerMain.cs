@@ -10,7 +10,7 @@ public class TimerMain : MonoBehaviour
     public bool isManipulatingTime = false;
 
     [Header("Adjustments")]
-    [SerializeField] float updateQuantum = 0.1f; // After how much time do we update the time
+    [SerializeField] float updateQuantum = 1/24; // After how much time do we update the time
     [SerializeField] float timeManipulateSenstivity = 10;
 
     [Header("References")]
