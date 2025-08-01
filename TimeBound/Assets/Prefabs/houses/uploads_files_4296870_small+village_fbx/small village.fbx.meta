@@ -1,0 +1,467 @@
+fileFormatVersion: 2
+guid: 5ebf25b27d8fe1a45a7591b50da07f63
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 01-06
+    second: {fileID: 2100000, guid: 583580fc01cd6e34cb6f4339988f5b08, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bark_Abies-concolor_bqm
+    second: {fileID: 2100000, guid: da8a53f6740cdf3449760db301cbf1da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrel - Stainless Steel
+    second: {fileID: 2100000, guid: 04ba90403d3c07a4984e5c65bf11ca5d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrel Ring - Stainless Steel
+    second: {fileID: 2100000, guid: c28eb5af5ea32a54fa4b0643e8befaf9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bolt - Stainless Steel
+    second: {fileID: 2100000, guid: 582ceab346bb2e1438c292e7ceb04725, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bolt End - Stainless Steel
+    second: {fileID: 2100000, guid: a719d0b38151b05499aeba8023a2d4e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bolt Grip - Stainless Steel
+    second: {fileID: 2100000, guid: 8343bec5eb7ff274485dd258d1c62107, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bolt Shaft - Jeweling
+    second: {fileID: 2100000, guid: 624d87ed224ec84469c0ecb918ad8570, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bolt Shaft - Stainless Steel
+    second: {fileID: 2100000, guid: 5df88b7b8ee05f84b880560494812a5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bolt Stop - Stainless Steel
+    second: {fileID: 2100000, guid: 3cece9e572f259f47acd48603af7b725, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bolt Stop Release - Stainless Steel
+    second: {fileID: 2100000, guid: 96b988ac71dbe534bbebe537470170c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brass
+    second: {fileID: 2100000, guid: aadfc1465e8c66d4ab98b14438f1f40c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cabinet_material
+    second: {fileID: 2100000, guid: 839852460c5c33643acddc877135f496, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Campfire_MAT
+    second: {fileID: 2100000, guid: a9e738db744ce4e42b4e70e67de7a18a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Crossbolts - Stainless Steel
+    second: {fileID: 2100000, guid: f0b5362dcb3bc33419e42845f6a28946, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door
+    second: {fileID: 2100000, guid: cd7fbedb72b40024b873ee4a05c0a7f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door_material
+    second: {fileID: 2100000, guid: c58e1e4d6c5786e45b304b296dd17f54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ebony Wood
+    second: {fileID: 2100000, guid: 49abb97760ece564b8347ceeae7bf170, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Flame
+    second: {fileID: 2100000, guid: be4d7e0864b5c5143ad0854d6b9f5947, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Follower Cap - Stainless Steel
+    second: {fileID: 2100000, guid: a02d3b59b7411af479893208b998ecf6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass_material
+    second: {fileID: 2100000, guid: 0e908a51ba97338429914eaf89ee67c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grass_bqm
+    second: {fileID: 2100000, guid: 6df08576cee8dec4c845359d5e3d7295, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Handle_material
+    second: {fileID: 2100000, guid: 11eec6bcddc5e1443baa03a53aaa3658, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Housing Screws - Stainless Steel
+    second: {fileID: 2100000, guid: 38cc9511cc335464ba955a2d139ea554, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INSIDE
+    second: {fileID: 2100000, guid: 125e126e4076b6146930c2decf675f4c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Leaf_Abies-concolor_bqm
+    second: {fileID: 2100000, guid: 57029a3003774b2429d92b30ab1bbe41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mag Release Pivot - Stainless Steel
+    second: {fileID: 2100000, guid: 46a15b4259d46ed4180b5f1d478ccada, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Magazine - Stainless Steel
+    second: {fileID: 2100000, guid: 65708243466403140a4f45b1b0fc230f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Magazine End Cap - Stainless Steel
+    second: {fileID: 2100000, guid: ba73d6972f625534ea8bf8b8fd0f8dd3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Magazine Follower - Stainless Steel
+    second: {fileID: 2100000, guid: fa96de065fd71634eb9f3056945847bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Magazine Release - Stainless Steel
+    second: {fileID: 2100000, guid: b69dd81c8a14889478d4093fdb94c282, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Magazine Spring - Stainless Steel
+    second: {fileID: 2100000, guid: 594c21c433db44a4e9f4fa00810eb430, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: f90446333c5e9c447afb0b1536cc905b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #53
+    second: {fileID: 2100000, guid: 40b66e83c23b03f4dad6fb58b3a7668d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #67
+    second: {fileID: 2100000, guid: c08437a4a4834174481cb86edca530fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #69
+    second: {fileID: 2100000, guid: 733cdcb38db43214da8ba3b6b605e266, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 4ae854d675919ed448951b308b49e8e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: b13f541b151024c42aad91752c013562, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: 24386792c979fd34dae39ceb975c2ad2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.005
+    second: {fileID: 2100000, guid: f3f69d9f68263a648b92e9424ec3e1a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.005_0399.jpg
+    second: {fileID: 2100000, guid: dff7e5421b475e94789d673ccd6d8b1b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.010
+    second: {fileID: 2100000, guid: 017f70ed215a56f47a087f909192aaab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal.001
+    second: {fileID: 2100000, guid: 7e3f41315deb14847838059f1db16ec4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic End Cap
+    second: {fileID: 2100000, guid: b1cd40c0dcab97e429a9cbbfa3dd1ccf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic_Handle_material
+    second: {fileID: 2100000, guid: 9de02479f8b396749b1c3fdc2e623064, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Receiver - Stainless Steel
+    second: {fileID: 2100000, guid: 6f54c4c76fd01154e8c3c8eebb47e2ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rubber Stock
+    second: {fileID: 2100000, guid: 6ac60efb2e6488d46b8784db39a068ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Safety Assembly - Stainless Steel
+    second: {fileID: 2100000, guid: e10c41cce67648a4a93eccd91613b040, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Safety Spin - Stainless Steel
+    second: {fileID: 2100000, guid: 153dbb27d4eb6bc4ca037a219ef62c19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Scope Base - Stainless Steel
+    second: {fileID: 2100000, guid: 179d9e9ef4a4a054ab318d1cd8dbd288, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sear Safety Cam - Stainless Steel
+    second: {fileID: 2100000, guid: 5477951143a722b4789caf944039f4ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Spring - Stainless Steel
+    second: {fileID: 2100000, guid: 32d7c248d5e06fa448a69bac3a584df5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Swivel Studs - Steel
+    second: {fileID: 2100000, guid: 0de8f8e8ed156ca4ba64867ac7d62d8e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Trigger - Stainless Steel
+    second: {fileID: 2100000, guid: a6fd9c17284904c47870937447f5fc8c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Trigger Guard - Sainless Steel
+    second: {fileID: 2100000, guid: facf13b766d5b7e4dbb73f8da10f02ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Trigger Guard Screws - Stainless Steel
+    second: {fileID: 2100000, guid: 6acdd757c2c97fc46a90a342c4095993, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Trigger Housing - Stainless Steel
+    second: {fileID: 2100000, guid: 39d7bd109edd9d649ad94e5ec3e2ea13, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Walnut Wood
+    second: {fileID: 2100000, guid: bbd17d67a16570749934b35d9aa52235, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wax.002
+    second: {fileID: 2100000, guid: 9f36c506c77379248998d1273ec889d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood
+    second: {fileID: 2100000, guid: 2420062478f0d894895fa2b24431ff99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood end
+    second: {fileID: 2100000, guid: a4a68be621093b14f951d111e5d7f89b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Woven_Wool
+    second: {fileID: 2100000, guid: ffb6a9c9317c2334ea5a972a2e14b6d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: basic wood
+    second: {fileID: 2100000, guid: d1e22ec8109f9d94e901d69b1e61c653, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bedWoodMat
+    second: {fileID: 2100000, guid: 957f9c3fe64669a4aa450f0dbdfae9d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chest
+    second: {fileID: 2100000, guid: 069a09125b35d5f48a0dce96d4bc94c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: countertop_material
+    second: {fileID: 2100000, guid: 84206b73e3803ec4eaa50ab4baf77c08, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: floor
+    second: {fileID: 2100000, guid: ec78868236e59814a940cc9b4d5661fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: floor.001
+    second: {fileID: 2100000, guid: 5d7688deeb4d826419da9d170fca43b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: frame
+    second: {fileID: 2100000, guid: 304c6b4fd02734e4ea1498397d4d1a06, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: haybedMat
+    second: {fileID: 2100000, guid: 1a1997f45b724c241b73703ac704d781, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hidden_material
+    second: {fileID: 2100000, guid: b0672af35704b4747aeb674f4ccd2f51, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wire_143224087
+    second: {fileID: 2100000, guid: 7fe81386847f3c74d9150e8d7df41c6a, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
