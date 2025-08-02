@@ -1,8 +1,8 @@
 using UnityEngine;
 
-public class PersistentGameObject : MonoBehaviour
+public class BGmusic : MonoBehaviour
 {
-    public static PersistentGameObject instance;
+    public static BGmusic instance;
 
     private void Awake()
     {
