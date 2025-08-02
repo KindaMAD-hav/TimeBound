@@ -8,7 +8,7 @@ public class AudioSettingsImplement : MonoBehaviour
 
     private void Start()
     {
-        musicSource = PersistentGameObject.instance.GetComponent<AudioSource>();
+        musicSource = BGmusic.instance.GetComponent<AudioSource>();
     }
 
     private void Update()

@@ -288,13 +288,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 391979937}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e41f03c3078ae2849ad22d0a7dbb3665, type: 3}
+  m_Script: {fileID: 11500000, guid: d78dc78acf673814b92be94ee3e89b3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   timerScript: {fileID: 248825991}
   timeQuantam: 0.041666668
-  animationTime: 10
-  clip: {fileID: 7400000, guid: 5c4043e121edc924a8523304020b2826, type: 2}
+  animationTime:
+  - 1
+  - 2
+  - 3
+  - 1
+  clips:
+  - {fileID: 7400000, guid: 075e31d9e967cfb479d62c645ae50959, type: 2}
+  - {fileID: 7400000, guid: 5c4043e121edc924a8523304020b2826, type: 2}
+  - {fileID: 7400000, guid: 075e31d9e967cfb479d62c645ae50959, type: 2}
+  - {fileID: 7400000, guid: 5c4043e121edc924a8523304020b2826, type: 2}
 --- !u!1 &575522035
 GameObject:
   m_ObjectHideFlags: 0
