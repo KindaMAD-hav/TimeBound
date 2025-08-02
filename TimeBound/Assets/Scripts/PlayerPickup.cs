@@ -25,33 +25,29 @@ public class PlayerPickup : MonoBehaviour
             {
                 GameObject obj = hit.collider.gameObject;
 
-                // ▶︎ Play pickup sound (optional)
+                // Optional pickup sound
                 var po = obj.GetComponent<PickupableObject>();
                 if (po != null && po.pickupSound != null)
-                {
                     AudioSource.PlayClipAtPoint(po.pickupSound, obj.transform.position, po.pickupVolume);
-                }
 
-                // ▶︎ If this object has a narration sequence, play it
-                var narration = obj.GetComponent<NarrationSequence>();
+                // Start narration sequence (if present)
+                var narration = obj.GetComponent<PickupNarrationPlayer>();
                 if (narration != null)
-                {
-                    // We play the sequence before deactivating the object
-                    narration.PlaySequence();
-                }
+                    narration.StartNarration();
+
+                // Deactivate visuals, but leave audio working
+                foreach (var renderer in obj.GetComponentsInChildren<Renderer>())
+                    renderer.enabled = false;
+                foreach (var collider in obj.GetComponentsInChildren<Collider>())
+                    collider.enabled = false;
 
                 inventory.Add(obj);
-
-                // Option 1: hide the object and let narration play
-                obj.SetActive(false);
-
-                // Option 2: delay disabling until narration finishes
-                // StartCoroutine(DisableAfterNarration(obj, narration));
 
                 Debug.Log($"Picked up: {obj.name} (Total items: {inventory.Count})");
             }
         }
     }
+
 
     // (Optional) Expose inventory to other systems:
     public IReadOnlyList<GameObject> Inventory => inventory;
