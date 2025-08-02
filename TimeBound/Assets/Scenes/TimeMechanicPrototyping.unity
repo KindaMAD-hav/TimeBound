@@ -182,7 +182,7 @@ GameObject:
   - component: {fileID: 391979941}
   - component: {fileID: 391979940}
   - component: {fileID: 391979939}
-  - component: {fileID: 391979938}
+  - component: {fileID: 391979943}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -190,32 +190,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &391979938
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 391979937}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 014a5583570991f4fa9747f21226b203, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timerScript: {fileID: 248825991}
-  timeQuantam: 0.04166667
-  enterAndExitTimes:
-  - {x: 3, y: 5}
-  - {x: 7, y: 10}
-  clips:
-  - {fileID: 7400000, guid: 5c4043e121edc924a8523304020b2826, type: 2}
-  - {fileID: 7400000, guid: 075e31d9e967cfb479d62c645ae50959, type: 2}
-  enabledAtStart: 0
-  isEnabled:
-  - x: 1
-    y: 0
-  - x: 1
-    y: 0
 --- !u!65 &391979939
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -305,6 +279,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &391979943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391979937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e41f03c3078ae2849ad22d0a7dbb3665, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timerScript: {fileID: 248825991}
+  timeQuantam: 0.041666668
+  animationTime: 10
+  clip: {fileID: 7400000, guid: 5c4043e121edc924a8523304020b2826, type: 2}
 --- !u!1 &575522035
 GameObject:
   m_ObjectHideFlags: 0
