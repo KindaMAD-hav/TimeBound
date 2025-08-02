@@ -15,6 +15,8 @@ public class MainMenu : MonoBehaviour
     [SerializeField] Sprite Bg;
     [SerializeField] Sprite BgBlurred;
     [SerializeField] AudioClip selectSound;
+    [SerializeField] string startScene = "start";
+    [SerializeField] string settingsScene = "Settings";
     public TMPro.TMP_Text pressAnyButton;
     [SerializeField] float startDelay = 0.5f;
 
@@ -65,12 +67,13 @@ public class MainMenu : MonoBehaviour
     {
         Debug.Log("start");
         source.PlayOneShot(selectSound);
-        StartCoroutine(loadSceneAfterDelay());
+        StartCoroutine(loadSceneAfterDelay(startScene));
     }
     public void settings()
     {
         Debug.Log("settings");
         source.PlayOneShot(selectSound);
+        StartCoroutine(loadSceneAfterDelay(settingsScene));
     }
     public void quit()
     {
@@ -79,10 +82,10 @@ public class MainMenu : MonoBehaviour
         StartCoroutine(quitAfterDelay());
     }
 
-    IEnumerator loadSceneAfterDelay()
+    IEnumerator loadSceneAfterDelay(string scene)
     {
         yield return new WaitForSeconds(selectSound.length);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(scene);
     }
 
     IEnumerator quitAfterDelay()
