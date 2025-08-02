@@ -94,7 +94,7 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4e4f2066c853ab847acdf26d2f8c07aa, type: 3}
       insertIndex: -1
-      addedObject: {fileID: -3855807467139096328}
+      addedObject: {fileID: 160568068925834570}
     - targetCorrespondingSourceObject: {fileID: -3282375448023672240, guid: 4e4f2066c853ab847acdf26d2f8c07aa, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5980035055397634124}
@@ -165,7 +165,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 4e4f2066c853ab847acdf26d2f8c07aa, type: 3}
   m_PrefabInstance: {fileID: 3859997366200467884}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &-3855807467139096328
+--- !u!114 &160568068925834570
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -174,13 +174,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 4129834902933716221}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e41f03c3078ae2849ad22d0a7dbb3665, type: 3}
+  m_Script: {fileID: 11500000, guid: d78dc78acf673814b92be94ee3e89b3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   timerScript: {fileID: 0}
   timeQuantam: 0.041666668
-  animationTime: 0
-  clip: {fileID: 0}
+  animationTime: []
+  clips: []
 --- !u!1 &7326615690802348757 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5781541103194948473, guid: 4e4f2066c853ab847acdf26d2f8c07aa, type: 3}

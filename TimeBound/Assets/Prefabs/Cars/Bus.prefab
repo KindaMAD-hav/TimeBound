@@ -58,14 +58,14 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: db1b89a6fcf506c40868c0d37bd75fa5, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 4724337735328350620}
+      addedObject: {fileID: 8993654716170228506}
   m_SourcePrefab: {fileID: 100100000, guid: db1b89a6fcf506c40868c0d37bd75fa5, type: 3}
 --- !u!1 &6043626287098695207 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: db1b89a6fcf506c40868c0d37bd75fa5, type: 3}
   m_PrefabInstance: {fileID: 6853968216959890294}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &4724337735328350620
+--- !u!114 &8993654716170228506
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -74,10 +74,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 6043626287098695207}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e41f03c3078ae2849ad22d0a7dbb3665, type: 3}
+  m_Script: {fileID: 11500000, guid: d78dc78acf673814b92be94ee3e89b3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   timerScript: {fileID: 0}
   timeQuantam: 0.041666668
-  animationTime: 0
-  clip: {fileID: 0}
+  animationTime: []
+  clips: []
