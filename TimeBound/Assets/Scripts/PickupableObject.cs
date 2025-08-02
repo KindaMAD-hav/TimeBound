@@ -1,8 +1,12 @@
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody))]
-[RequireComponent(typeof(Collider))]
+[RequireComponent(typeof(Rigidbody), typeof(Collider))]
 public class PickupableObject : MonoBehaviour
 {
-    // Optional: you can add properties here (e.g. weight, type, etc.)
+    [Header("Pickup Sound")]
+    [Tooltip("The sound to play when this object is picked up")]
+    public AudioClip pickupSound;
+
+    [Range(0f, 1f)]
+    public float pickupVolume = 1f;
 }
