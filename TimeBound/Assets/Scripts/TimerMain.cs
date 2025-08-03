@@ -1,5 +1,7 @@
 using System.Runtime.Versioning;
 using UnityEngine;
+using UnityEngine.Audio;
+using UnityEngine.UI;
 
 public class TimerMain : MonoBehaviour
 {
@@ -14,8 +16,12 @@ public class TimerMain : MonoBehaviour
     [SerializeField] float timeManipulateSenstivity = 10;
 
     [Header("References")]
-    [SerializeField] KeyCode[] timeManipulateKey = { KeyCode.Q};
-    
+    [SerializeField] KeyCode[] timeManipulateKey = { KeyCode.LeftControl};
+    [SerializeField] Image overlay;
+    [SerializeField] AudioClip rewindClip;
+    [SerializeField] AudioSource source;
+    [SerializeField] Canvas canvas;
+
     //private variables
     private float timeSinceLastUpdate = 0;
     private float timeSinceLastManipulate = 0;
@@ -30,9 +36,14 @@ public class TimerMain : MonoBehaviour
     private void manipulateTime()
     {
         float input = Input.GetAxisRaw("Horizontal");
+        source.clip = rewindClip;
 
         if (input != 0)
         {
+            if (!source.isPlaying)
+            {
+                source.Play();
+            }
             timeSinceLastManipulate += Time.deltaTime * timeManipulateSenstivity/updateQuantum;
 
             if (timeSinceLastManipulate >= 1f)
@@ -45,6 +56,10 @@ public class TimerMain : MonoBehaviour
         }
         else
         {
+            if (source.isPlaying)
+            {
+                source.Stop();
+            }
             timeSinceLastManipulate = 0;
         }
     }
@@ -52,6 +67,12 @@ public class TimerMain : MonoBehaviour
 
     private void Update()
     {
+        if(canvas.enabled == true)
+        {
+            overlay.enabled = false;
+            if(source.isPlaying && source.clip == rewindClip) source.Stop();
+            return;
+        }
         if (!isManipulatingTime)
         {
             timeSinceLastUpdate += Time.deltaTime;
@@ -73,22 +94,33 @@ public class TimerMain : MonoBehaviour
         {
             if (Input.GetKeyDown(key))
             {
-                isManipulatingTime = !isManipulatingTime;
-                if (isManipulatingTime)
+                isManipulatingTime = true;
+                currTimeBackup = currTime;
+                overlay.enabled = true;
+            }else if(Input.GetKeyUp(key))
+            {
+                isManipulatingTime = false;
+                currTime = currTimeBackup;
+                overlay.enabled = false;
+            }
+
+            if (!Input.GetKey(key)) // AdditionalSafety
+            {
+                isManipulatingTime = false;
+                overlay.enabled = false;
+                if (source.isPlaying)
                 {
-                    currTimeBackup = currTime;
+                    source.Stop();
                 }
-                else
-                {
-                    currTime = currTimeBackup;
-                }
+            }
+            else
+            {
+                isManipulatingTime = true;
+                overlay.enabled = true;
             }
         }
 
-        //Test code (remove in final build)
-        if (Input.GetKeyDown(KeyCode.R)){ 
-            currTime = 0;
-        }
+       
         
     }
 }
