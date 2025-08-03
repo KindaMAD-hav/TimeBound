@@ -1,9 +1,49 @@
 fileFormatVersion: 2
-guid: e85c43b7ba303fe4cb8bc064e7eaf7a1
+guid: efb7e61ab0f722246ba142939ddb9eb2
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 372872a718e62204eb7187bf1be00751, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_Gloves
+    second: {fileID: 2100000, guid: b91003fe8b33c2d4eb15757e6e3806d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_Hands
+    second: {fileID: 2100000, guid: 03fac2693dcaf1d4d82be1ddde13ceae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_Sleeves_0
+    second: {fileID: 2100000, guid: a531b9b6afaa87247826137db5eb82b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_Sleeves_1
+    second: {fileID: 2100000, guid: 763a75c6e08fd6b429dd592fb0be4c0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_Sleeves_2_0
+    second: {fileID: 2100000, guid: 1fc80d6a2d7e40b41b0fd26286e9ded8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_Sleeves_2_1
+    second: {fileID: 2100000, guid: ad9b356db350385449063df78f628343, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_Sleeves_3
+    second: {fileID: 2100000, guid: 1f68f960e44947941b10eff89f47ea3a, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
