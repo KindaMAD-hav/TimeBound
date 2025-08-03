@@ -4518,7 +4518,7 @@ GameObject:
   m_Component:
   - component: {fileID: 247635308}
   m_Layer: 0
-  m_Name: Extension Objects
+  m_Name: Cars2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10448,7 +10448,7 @@ GameObject:
   m_Component:
   - component: {fileID: 527824329}
   m_Layer: 0
-  m_Name: Ground Object
+  m_Name: Cars1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13735,8 +13735,7 @@ PrefabInstance:
       propertyPath: timerScript
       value: 
       objectReference: {fileID: 1410614928}
-    m_RemovedComponents:
-    - {fileID: 48388798057287740, guid: e1c5326f0c7d9f84f9f8bee72af3488c, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -15603,8 +15602,7 @@ PrefabInstance:
       propertyPath: timerScript
       value: 
       objectReference: {fileID: 1410614928}
-    m_RemovedComponents:
-    - {fileID: 160568068925834570, guid: f8644e0d68714d942964f9164b62aed9, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -25455,8 +25453,7 @@ PrefabInstance:
       propertyPath: timerScript
       value: 
       objectReference: {fileID: 1410614928}
-    m_RemovedComponents:
-    - {fileID: 48388798057287740, guid: e1c5326f0c7d9f84f9f8bee72af3488c, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -29526,6 +29523,10 @@ MonoBehaviour:
   updateQuantum: 0.04166667
   timeManipulateSenstivity: 10
   timeManipulateKey: 71000000
+  overlay: {fileID: 0}
+  rewindClip: {fileID: 0}
+  source: {fileID: 0}
+  canvas: {fileID: 0}
 --- !u!4 &1410614929
 Transform:
   m_ObjectHideFlags: 0
@@ -34612,8 +34613,7 @@ PrefabInstance:
       propertyPath: timerScript
       value: 
       objectReference: {fileID: 1410614928}
-    m_RemovedComponents:
-    - {fileID: 6991978602622778628, guid: 0a1b343891f9c0e4387c293c060b6a96, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -36595,8 +36595,7 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1410614928}
     m_RemovedComponents:
-    - {fileID: 5230396919365991892, guid: bcd62986c9989f54fab0d9e30efa22f7, type: 3}
-    - {fileID: 1859290010902584582, guid: bcd62986c9989f54fab0d9e30efa22f7, type: 3}
+    - {fileID: 0}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
