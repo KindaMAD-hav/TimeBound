@@ -1,4 +1,6 @@
-﻿public class PickupNarrationPlayer : MonoBehaviour
+﻿using UnityEngine;
+
+public class PickupNarrationPlayer : MonoBehaviour
 {
     [Header("Narration Settings")]
     public AudioClip[] narrationClips;
