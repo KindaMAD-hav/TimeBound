@@ -12,8 +12,8 @@ EditorBuildSettings:
     path: Assets/Scenes/settings.unity
     guid: 5f1749612c1d27a4fb6dfa5ef45267ad
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Fries and Seagull/City 03/BRP Sample Scene.unity
+    guid: ab87d11da6d96f843bfe3ecf6b8a89ba
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

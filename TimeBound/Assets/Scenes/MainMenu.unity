@@ -2281,7 +2281,7 @@ MonoBehaviour:
   Bg: {fileID: 21300000, guid: d6aab253320871346af64586f58552e4, type: 3}
   BgBlurred: {fileID: 21300000, guid: 8c85dde38da09c4418e2de0e09997c19, type: 3}
   selectSound: {fileID: 8300000, guid: 17335746e8e479c48848994c3214de61, type: 3}
-  startScene: SampleScene
+  startScene: BRP Sample Scene
   settingsScene: Settings
   pressAnyButton: {fileID: 745679398}
   startDelay: 0
