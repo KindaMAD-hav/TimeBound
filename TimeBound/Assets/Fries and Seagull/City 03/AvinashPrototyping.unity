@@ -18340,6 +18340,9 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 943750912}
   - component: {fileID: 943750914}
   - component: {fileID: 943750913}
   m_Layer: 0
