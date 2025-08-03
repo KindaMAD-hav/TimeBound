@@ -13431,7 +13431,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.5411765}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.09019608}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -29381,7 +29381,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 11
   m_Type: 1
-  m_Color: {r: 0.8207547, g: 0.88349056, b: 1, a: 1}
+  m_Color: {r: 0.51795655, g: 0.5701193, b: 0.6679245, a: 1}
   m_Intensity: 3.33
   m_Range: 10
   m_SpotAngle: 30
@@ -57160,7 +57160,7 @@ MonoBehaviour:
   timeManipulateSenstivity: 100
   timeManipulateKey: 32010000
   overlay: {fileID: 329713471}
-  rewindClip: {fileID: 8300000, guid: 6d68612b62221f1468497e3420421789, type: 3}
+  rewindClip: {fileID: 8300000, guid: 0794f61aa9220264d86f7f777016ad68, type: 3}
   source: {fileID: 273364147}
   canvas: {fileID: 1878411946}
 --- !u!224 &1443331202
@@ -74067,6 +74067,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1417857234476033086, guid: 734b0de9e6240b749a94c10d6dab9574, type: 3}
       propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097934154937117022, guid: 734b0de9e6240b749a94c10d6dab9574, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3131517142119481791, guid: 734b0de9e6240b749a94c10d6dab9574, type: 3}
