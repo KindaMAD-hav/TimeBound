@@ -1,0 +1,237 @@
+fileFormatVersion: 2
+guid: 82424376bfbda464f8006a5af494ce35
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BoxesMat
+    second: {fileID: 2100000, guid: 88eca55f362a5f4498a30418aa1d4c1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Desk wood
+    second: {fileID: 2100000, guid: 4ac838b406d01ed4591e545abbd03def, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RackMetal
+    second: {fileID: 2100000, guid: 792960318555b4c4e94f0e196842853c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RackWood
+    second: {fileID: 2100000, guid: 63cd0125430e2464b8a5b0ea92eb6fc2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Warehouse
+    second: {fileID: 2100000, guid: 0bea9da729c27314fa194fb9e59d151c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WarehouseDoor
+    second: {fileID: 2100000, guid: 3483113463337b84fb9ad87f2848df1d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WarehouseDoorKnob
+    second: {fileID: 2100000, guid: be716cb4e4ee96d46b08b5aec2584633, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: METAL_BLACK_002_1K_BaseColor
+    second: {fileID: 2800000, guid: f28f02c072dc73b4d9cb03d1d8d88ba5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: METAL_BLACK_002_1K_Metallic
+    second: {fileID: 2800000, guid: 5bde667d573bf8a41b828d1dbb349d9b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: METAL_BLACK_002_1K_Normal
+    second: {fileID: 2800000, guid: 28de3aa00675e274297e85ec243d8c42, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: METAL_BLACK_002_1K_Opacity
+    second: {fileID: 2800000, guid: 1c66596b7d8519e45ab5580cf6485766, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: METAL_BLACK_002_1K_Roughness
+    second: {fileID: 2800000, guid: 5fb6e230ed702ca4eb76d0fb97a5128c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: METAL_BLACK_002_1K_SpecularLevel
+    second: {fileID: 2800000, guid: 822eae64bbcd09449af35fba2ed9be69, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Material-359-A_BaseColor
+    second: {fileID: 2800000, guid: 082545adbcd733d40ba5227751cf8108, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Material-359-A_Metallic
+    second: {fileID: 2800000, guid: 8afbc7354ab6c0c49896f4e435dfbc57, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Material-359-A_Normal
+    second: {fileID: 2800000, guid: a3de11a9536d06c428caca78888293bd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Material-359-A_Specular
+    second: {fileID: 2800000, guid: bfa43288e0c176d41aa2b4800ab6044f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: WarehouseMainDiffuse
+    second: {fileID: 2800000, guid: 5e2bf9f31f992f84f9adf0b46a4f6d32, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: WarehouseMainMetalness
+    second: {fileID: 2800000, guid: b0d5069e14f10bf418c239ba6a041f1e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: WarehouseMainNormal
+    second: {fileID: 2800000, guid: c5d53b54d8498404e8fba5b79ed7ca96, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: WarehouseMainRoughness
+    second: {fileID: 2800000, guid: 00af7d6296cd6f44494c3ed2c70c33f8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: desk-wood-diffuse
+    second: {fileID: 2800000, guid: 7fec87d2f06fa824ea9160ac13fcde4f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: desk-wood-normal
+    second: {fileID: 2800000, guid: 686bd5352480ec746b84497d3348df42, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: desk-wood-roughness
+    second: {fileID: 2800000, guid: 5fb050b7c49f1f9409958789ec7962eb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: storage_box_01_metallic-4K
+    second: {fileID: 2800000, guid: 38751471b4c64bc47a75a8b911703882, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: storage_box_01_roughness-4K
+    second: {fileID: 2800000, guid: 604beb623fd593e4a9f27bce2375a567, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

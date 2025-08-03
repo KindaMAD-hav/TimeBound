@@ -91,7 +91,7 @@ public class SyncObjects : MonoBehaviour
             }
             else if(currentMinutes < enterAndExitTimes[0].x)
             {
-                setEnabledState(isEnabled[i].y);
+                setEnabledState(enabledAtStart);
                 Debug.Log("Start Reached");
             }
 
