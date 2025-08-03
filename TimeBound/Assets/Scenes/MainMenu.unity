@@ -1988,6 +1988,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23c05e9ec545d184b9b461f59b12c514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  menu: MainMenu
+  startScene: BRP Sample Scene
+  menuMusic: {fileID: 8300000, guid: 20bbdb6d213f53a44ad09e9d359a907d, type: 3}
+  BGMusic: {fileID: 8300000, guid: 20bbdb6d213f53a44ad09e9d359a907d, type: 3}
 --- !u!82 &1189070828
 AudioSource:
   m_ObjectHideFlags: 0
