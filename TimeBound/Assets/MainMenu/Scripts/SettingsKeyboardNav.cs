@@ -15,6 +15,7 @@ public class SettingsKeyboardNav : MonoBehaviour
 
     void Update()
     {
+        if (GetComponent<Canvas>().enabled == false) return; 
         // --- Detect state change ---
         if (InputState.currentState != lastState)
         {
